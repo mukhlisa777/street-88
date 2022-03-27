@@ -1,0 +1,80 @@
+@media (max-width:1200px) {
+    .aside{
+        position: relative;
+        width: 100%;
+        height: max-content;
+        flex-direction: row;
+        padding: 15px;
+        align-items: center;
+    }
+    .aside__list{
+        display: flex;
+        flex-direction: row;
+    }
+    .aside__item{
+        margin-bottom: 0;
+    }
+    .aside__icon{
+        
+    }
+    
+}
+@media (max-width:992px) {
+    .service{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .service__block{
+        margin-top: 30px;
+    }
+    .about{
+       flex-wrap: wrap;
+       justify-content: center;
+    }
+    .about-right{
+        width: 500px;
+    }
+}
+@media (max-width:768px) {
+    .aside__icon{
+        /* opacity: 0; */
+        display: none;
+    }
+    .aisde__nav, .aside__user, .aside__logo{
+        margin-left: 0;
+    }
+    .footer-content{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+   .footer__info{
+      margin-top: 20px;
+       align-items: center;
+   }
+}
+@media (max-width:576px) {
+   .aside__list{
+       flex-wrap: wrap;
+       justify-content: center;
+   }
+   .intro{
+     height: max-content;
+     padding: 30px;
+     justify-content: center;
+   }
+   .intro__content{
+       margin-left: 0;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+   }
+   .intro__title, .intro__text{
+       width: 100%;
+       text-align: center;
+   }
+   
+}
+@media (max-width:320px) {
+    
+}
